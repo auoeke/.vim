@@ -1,15 +1,9 @@
-[submodule "bundle/dracula-theme"]
-	path = bundle/dracula-theme
-	url = git@ssh.github.com:dracula/vim.git
-[submodule "pack/start/bundle/dracula-theme"]
-	path = pack/start/bundle/dracula-theme
-	url = git@ssh.github.com:dracula/vim.git
-[submodule "pack/plugins/start/dracula"]
-	path = pack/plugins/start/dracula
-	url = git@ssh.github.com:dracula/vim.git
-[submodule "vim-afterglow"]
-	path = vim-afterglow
+[submodule "pack/plugins/opt/onedark.vim"]
+	path = pack/plugins/opt/onedark.vim
+	url = git@ssh.github.com:joshdick/onedark.vim
+[submodule "pack/plugins/opt/vim-afterglow"]
+	path = pack/plugins/opt/vim-afterglow
 	url = git@ssh.github.com:danilo-augusto/vim-afterglow
-[submodule "pack/plugins/start/afterglow"]
-	path = pack/plugins/start/afterglow
-	url = git@ssh.github.com:danilo-augusto/vim-afterglow
+[submodule "pack/plugins/opt/dracula"]
+	path = pack/plugins/opt/dracula
+	url = git@ssh.github.com:dracula/vim
