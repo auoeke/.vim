@@ -7,3 +7,9 @@
 [submodule "pack/plugins/start/dracula"]
 	path = pack/plugins/start/dracula
 	url = git@ssh.github.com:dracula/vim.git
+[submodule "vim-afterglow"]
+	path = vim-afterglow
+	url = git@ssh.github.com:danilo-augusto/vim-afterglow
+[submodule "pack/plugins/start/afterglow"]
+	path = pack/plugins/start/afterglow
+	url = git@ssh.github.com:danilo-augusto/vim-afterglow

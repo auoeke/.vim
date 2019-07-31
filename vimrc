@@ -1,2 +1,1 @@
-packadd! dracula
-colorscheme dracula
+colorscheme afterglow
