@@ -1,0 +1,9 @@
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@ssh.github.com:dracula/vim.git
+[submodule "pack/start/bundle/dracula-theme"]
+	path = pack/start/bundle/dracula-theme
+	url = git@ssh.github.com:dracula/vim.git
+[submodule "pack/plugins/start/dracula"]
+	path = pack/plugins/start/dracula
+	url = git@ssh.github.com:dracula/vim.git
