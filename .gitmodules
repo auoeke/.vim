@@ -1,9 +1,21 @@
 [submodule "pack/plugins/opt/onedark.vim"]
 	path = pack/plugins/opt/onedark.vim
-	url = git@ssh.github.com:joshdick/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
 [submodule "pack/plugins/opt/vim-afterglow"]
 	path = pack/plugins/opt/vim-afterglow
-	url = git@ssh.github.com:danilo-augusto/vim-afterglow
+	url = https://github.com/danilo-augusto/vim-afterglow
 [submodule "pack/plugins/opt/dracula"]
 	path = pack/plugins/opt/dracula
-	url = git@ssh.github.com:dracula/vim
+	url = https://github.com/dracula/vim
+[submodule "pack/plugins/start/surround"]
+	path = pack/plugins/start/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/plugins/start/YouCompleteMe"]
+	path = pack/plugins/start/YouCompleteMe
+    url = https://github.com/ycm-core/YouCompleteMe
+[submodule "pack/plugins/start/vim-airline"]
+	path = pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/plugins/start/vim-go"]
+	path = pack/plugins/start/vim-go
+	url = https://github.com/fatih/vim-go.git
