@@ -1,17 +1,28 @@
+set encoding=utf-8
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
 
-if (empty($TMUX))
-  if (has("nvim"))
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  endif
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
+set cursorline
+
+filetype plugin on
+filetype plugin indent on
+
+set rtp+=~/.vim/pack/plugins/start/YouCompleteMe
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 syntax on
 packadd! onedark.vim
 colorscheme onedark
+
+function! OpenCompletion()
+    if !pumvisible() && ((v:char >= 'a' && v:char <= 'z') || (v:char >= 'A' && v:char <= 'Z') || (v:char == '.'))
+        call feedkeys("\<C-x>\<C-o>", "n")
+    endif
+endfunction
+
+autocmd InsertCharPre *.go call OpenCompletion()
+
+set completeopt+=menuone,noselect,noinsert
 
