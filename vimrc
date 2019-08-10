@@ -12,6 +12,8 @@ filetype plugin indent on
 set rtp+=~/.vim/pack/plugins/start/YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion = 1
 
+let g:netrw_dirhistmax = 0
+
 syntax on
 packadd! onedark.vim
 colorscheme onedark
