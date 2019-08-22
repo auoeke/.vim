@@ -9,6 +9,8 @@ set cursorline
 set number
 set completeopt+=menuone,noselect,noinsert
 
+autocmd CompleteDone * pclose
+
 let g:netrw_dirhistmax = 0
 
 syntax on
