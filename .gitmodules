@@ -22,9 +22,9 @@
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "pack/plugins/start/vim-closer"]
-	path = pack/plugins/start/vim-closer
-	url = https://github.com/rstacruz/vim-closer.git
 [submodule "pack/plugins/start/repeat.vim"]
 	path = pack/plugins/start/repeat.vim
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/plugins/start/auto-pairs"]
+	path = pack/plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
