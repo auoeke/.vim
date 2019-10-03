@@ -8,6 +8,7 @@ set expandtab
 set cursorline
 set number
 set completeopt+=menuone,noselect,noinsert
+set backspace=indent,eol,start
 
 autocmd CompleteDone * pclose
 
